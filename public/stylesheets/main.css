@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/stylesheets/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(/stylesheets/poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(/stylesheets/poppins/Poppins-Medium.ttf);
+}
+
+input {
+  outline: none;
+  border: none;
+}
+input:focus {
+  border-color: transparent !important;
+  background-color: rgb(128, 165, 177);
+  transform: scale(1.1);
+  transition: all 0.1s linear;
+}
+button {
+  outline: none !important;
+  border: none;
+  background: 0 0;
+}
+button:hover {
+  cursor: pointer;
+}
+body {
+  background: url("/images/31418.jpg");
+  background-size: cover;
+}
+.container-login100 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* background: url("/Plane.gif"); */
+  /* background: url("/images/31418.jpg"); */
+  background-size: cover;
+}
+
+.wrap-login100 {
+  width: 700px;
+  height: 300px;
+  /* background-image: url("/Plane.gif"); */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 50px 33px 95px;
+  /* background: transparent; */
+  box-shadow: 10px 10px 30px rgb(83, 199, 235);
+}
+.wrap-login100:hover {
+  /* transform: scale(1.1);
+  transition: all 10s linear; */
+  background-image: url("/images/Plane.gif");
+}
+.box {
+  width: 45%;
+  height: 90%;
+  border-radius: 10px;
+}
+.box:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  box-shadow: 10px 10px 10px #4698b8;
+}
+
+.login100-form-title {
+  font-family: Poppins-Bold;
+  font-size: 24px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.input100 {
+  font-family: Poppins-Medium;
+  font-size: 12px;
+  /* line-height: 1.5; */
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 50%;
+  background: transparent;
+  height: 30px;
+  border-radius: 25px;
+  padding: 0 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.login100-form-btn {
+  font-family: Poppins-Bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background: #4698b8;
+  padding: 0 25px;
+  margin-left: 110px;
+  box-shadow: 10px 10px 25px #4698b8;
+}
+.login100-form-btn:hover {
+  background: rgb(0, 118, 253);
+  transform: scale(1.1);
+  transition: all 0.1s linear;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Admin Login</title>
+    <link rel="icon" type="image/png" href="/images/icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+  </head>
+  <body>
+    <div class="limiter">
+      <div class="container-login100">
+        <div class="wrap-login100">
+          <div class="">
+            <!-- <img src="/" alt="IMG" /> -->
+          </div>
+          <div class="box">
+            <form action="/admin/chkadmin" method="post">
+              <span class="login100-form-title"> Flight Login </span>
+              <div>
+                <input
+                  class="input100"
+                  type="email"
+                  name="emailid"
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <input
+                  class="input100"
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="container-login100-form-btn">
+                <button type="submit" class="login100-form-btn">Login</button>
+              </div>
+            </form>
+            <b><%=message%></b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
